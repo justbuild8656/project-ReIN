@@ -21,6 +21,8 @@ public class Ability
      */
     private float justTime;
     
+    // TODO: 저스트 타임 관련 필요한 변수추가
+    
     private List<AbilityEffect> effects;
 }
 

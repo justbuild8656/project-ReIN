@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb49ca2a9bd61f41b0135b7b19e1053, type: 3}
+  m_Name: NecklaceRecipe
+  m_EditorClassIdentifier: 
+  resultArtifact:
+    artifact: {fileID: 11400000, guid: 1fa0ce2b711e9454c9e545366878a7b9, type: 2}
+    count: 1
+  reqMaterials:
+  - materialID: 0
+    count: 5
+  - materialID: 1
+    count: 3
+  - materialID: 2
+    count: 2
+  - materialID: 3
+    count: 1

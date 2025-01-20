@@ -13,7 +13,6 @@ public enum SkillActiveCond
 public class Skill
 {
     private string name;
-
     /**
      * 스킬 발동 조건 리스트
      */

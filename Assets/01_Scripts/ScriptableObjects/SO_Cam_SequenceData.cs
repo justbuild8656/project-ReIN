@@ -25,11 +25,6 @@ public class SO_Cam_SequenceData : ScriptableObject
             {
                 waypoints = container.Spline;
             }
-            else
-            {
-                if (waypoints.Count > 0) { return; }
-                Debug.LogWarning("A Prefab Spline Data is required in the sequence data");
-            }
         }
         else
         {

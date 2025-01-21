@@ -3,8 +3,8 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using TMPro;
 
-[RequireComponent(typeof(ClassSelector))]
-[RequireComponent(typeof(ButtonSelector))]
+//[RequireComponent(typeof(ClassSelector))]
+//[RequireComponent(typeof(ButtonSelector))]
 
 // 클래스 선택 버튼을 동적으로 관리
 public class ClassDisplayer : MonoBehaviour

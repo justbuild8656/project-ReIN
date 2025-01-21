@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(ClassDisplayer))]
+//[RequireComponent(typeof(ClassDisplayer))]
 
 // 현재 클래스 목록을 관리
 public class ClassSelector : MonoBehaviour

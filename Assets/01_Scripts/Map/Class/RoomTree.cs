@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class RoomTree
 {
   public RoomNode root; // 루트 노드
-  public int maxDepth; // 최대 깊이
+  public int maxDepth;  // 최대 깊이
 
   // 생성자
   public RoomTree(int maxDepth)

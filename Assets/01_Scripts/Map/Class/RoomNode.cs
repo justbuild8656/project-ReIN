@@ -3,17 +3,17 @@ using System.Collections.Generic;
 
 public enum RoomType
 {
-  Start, // 루트 노드(시작)
+  Start,  // 루트 노드(시작)
   Normal, // 일반 노드
-  End// 마지막 노드(클리어 방)
+  End     // 마지막 노드(클리어 방)
 }
 
 // 방 노드 클래스
 public class RoomNode
 {
-  public string roomID; // 방 ID
-  public int depth; // 노드 깊이(레이어)
-  public RoomType roomType; // 노드 종류
+  public string roomID;           // 방 ID
+  public int depth;               // 노드 깊이(레이어)
+  public RoomType roomType;       // 노드 종류
   public List<RoomNode> children; // 자식 노드 리스트
 
   // 생성자

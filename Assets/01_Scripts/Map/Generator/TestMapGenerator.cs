@@ -11,7 +11,8 @@ public class TestMapGenerator : MapGenerator
     int maxDepth = mapEditor.GetTreeDepth();
 
     // 맵 생성
-    RoomTree tree = CreateTree(mapData, maxDepth);
+    CreateTree(mapData, maxDepth);
+    RoomTree tree = GetMapTree();
 
     if(tree != null) mapTree = tree;
     else Debug.Log("트리 생성 실패");

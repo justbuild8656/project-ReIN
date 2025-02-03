@@ -15,40 +15,37 @@ public class RoomLoadUI : MonoBehaviour
   RoomNode currentRoom; // 현재 방 노드
   TestRoomManager roomManager;
 
-  // 초기화 매서드
-  public void Initialize(RoomNode roomNode)
-  {
+  // 초기화 메서드
+  public void Initialize(RoomNode roomNode){
     currentRoom = roomNode;
     roomManager = gameObject.GetComponent<TestRoomManager>();
   }
 
-  // 방 로드 UI 표시 매서드
-  public void DisplayUI()
-  {
-    if(currentRoom == null)
-    {
-      Debug.Log("방을 찾을 수 없음");
-      return;
-    }
+  // 방 로드 UI 표시 메서드
+  public void DisplayUI(){
+    if(currentRoom == null){Debug.Log("방을 찾을 수 없음"); return;}
 
-    if(buttonPrefab == null)
-    {
-      Debug.Log("버튼 프리팹을 찾을 수 없음");
-      return;
-    }
+    if(buttonPrefab == null){Debug.Log("버튼 프리팹을 찾을 수 없음"); return;}
 
     // 기존 동적 UI 제거
     foreach(Transform child in uiParent.transform) Destroy(child.gameObject);
 
-    float spacing = 400f; // 버튼 간 간격
-    float start = 0f; // 시작 위치
-    int childCount = currentRoom.children.Count; // 자식 노드 갯수
+    int childCount = currentRoom.children.Count; // 자식 노드 개수
 
-    // 자식 노드가 여러개일 경우 중심으로 정렬
+    // 자식이 없으면 UI 비활성화
+    if(childCount == 0){
+      Debug.Log("현재 방은 End Room이며 다음 방으로 이동할 수 없음");
+      uiParent.SetActive(false);
+      return;
+    }
+
+    float spacing = 400f; // 버튼 간 간격
+    float start = 0f;     // 시작 위치
+
+    // 자식 노드가 여러 개일 경우 중심으로 정렬
     if(childCount > 1) start = -(spacing * (childCount - 1)) / 2f;
 
-    for(int i = 0; i < childCount; i++)
-    {
+    for(int i = 0; i < childCount; i++){
       RoomNode childNode = currentRoom.children[i];
 
       // 버튼 생성
@@ -74,7 +71,7 @@ public class RoomLoadUI : MonoBehaviour
   private void MoveToRoom(RoomNode targetRoom)
   {
     roomManager.LoadRoom(targetRoom); // 방 이동
-    Initialize(targetRoom); // 현재 방 갱신
-    DisplayUI(); // UI 갱신
+    Initialize(targetRoom);           // 현재 방 갱신
+    DisplayUI();                      // UI 갱신
   }
 }

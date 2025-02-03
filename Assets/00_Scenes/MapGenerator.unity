@@ -270,7 +270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &204402810
 RectTransform:
   m_ObjectHideFlags: 0
@@ -982,38 +982,40 @@ MonoBehaviour:
   treeDepth: 4
   roomNodeInfo:
   - roomID: StartRoom
-    parentID: 
     roomType: 0
+    childrenID:
+    - Room_1
+    - Room_2
   - roomID: Room_1
-    parentID: StartRoom
     roomType: 1
+    childrenID:
+    - Room_1_1
+    - Room_1_2
   - roomID: Room_2
-    parentID: StartRoom
     roomType: 1
+    childrenID:
+    - Room_2_1
+    - Room_1_2
   - roomID: Room_1_1
-    parentID: Room_1
     roomType: 1
+    childrenID: []
   - roomID: Room_1_2
-    parentID: Room_1
     roomType: 1
+    childrenID:
+    - Room_1_2_1
   - roomID: Room_2_1
-    parentID: Room_2
     roomType: 1
+    childrenID: []
   - roomID: Room_2_2
-    parentID: Room_2
     roomType: 1
-  - roomID: Room_1_1_1
-    parentID: Room_1_1
-    roomType: 2
+    childrenID:
+    - Room_2_2_1
   - roomID: Room_1_2_1
-    parentID: Room_1_2
-    roomType: 2
-  - roomID: Room_2_1_1
-    parentID: Room_2_1
-    roomType: 2
+    roomType: 1
+    childrenID: []
   - roomID: Room_2_2_1
-    parentID: Room_2_2
-    roomType: 2
+    roomType: 1
+    childrenID: []
 --- !u!1 &2052729103
 GameObject:
   m_ObjectHideFlags: 0

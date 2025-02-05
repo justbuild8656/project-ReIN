@@ -3,18 +3,12 @@ using UnityEngine;
 [CustomEditor(typeof(SO_Ability))]
 public class SO_AbilityEditor : Editor
 {
-    private string[] tabs = { "Data", "Animation","Vfx" };
+    private string[] tabs = { "Data","Timeline" };
     private int tabindex;
     private SO_Ability ability;
 
-    [Header("[Data]")]
-    private SerializedProperty data;
+    private SerializedProperty data,timelineData;
 
-    [Header("[Animation]")]
-    private SerializedProperty abilityAnimation;
-
-    [Header("Vfx")]
-    private SerializedProperty abilityVfx;
     private void OnEnable()
     {
         FindSerializedObject();
@@ -31,15 +25,9 @@ public class SO_AbilityEditor : Editor
                 case 0:
                     TabData();
                     break;
-
                 case 1:
-                    TabAnimation();
+                    TabTimeline();
                     break;
-
-                case 2:
-                    TabVfx();
-                    break;
-
                 default:
                     break;
             }
@@ -49,8 +37,7 @@ public class SO_AbilityEditor : Editor
     private void FindSerializedObject()
     {
         data = serializedObject.FindProperty("data");
-        abilityAnimation = serializedObject.FindProperty("abilityAnimation");
-        abilityVfx = serializedObject.FindProperty("abilityVfx");
+        timelineData = serializedObject.FindProperty("timelineData");
     }
     private void TabData()
     {
@@ -61,21 +48,12 @@ public class SO_AbilityEditor : Editor
             EditorGUI.indentLevel--;
         }
     }
-    private void TabAnimation()
+    private void TabTimeline()
     {
         using (new EditorGUILayout.VerticalScope(EditorStyles.helpBox))
         {
             EditorGUI.indentLevel++;
-            EditorGUILayout.PropertyField(abilityAnimation);
-            EditorGUI.indentLevel--;
-        }
-    }
-    private void TabVfx()
-    {
-        using (new EditorGUILayout.VerticalScope(EditorStyles.helpBox))
-        {
-            EditorGUI.indentLevel++;
-            EditorGUILayout.PropertyField(abilityVfx);
+            EditorGUILayout.PropertyField(timelineData);
             EditorGUI.indentLevel--;
         }
     }

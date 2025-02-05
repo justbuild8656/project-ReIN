@@ -1,6 +1,8 @@
 using CameraSystem;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Playables;
+using UnityEngine.Timeline;
 public class UiManager : MonoBehaviour
 {
     // Test : 현재 어빌리티와 버튼 체크하기 위해서 테스트중
@@ -8,6 +10,7 @@ public class UiManager : MonoBehaviour
     public Animator animator;
     //test
     public SO_Artifact[] artifactData;
+    [SerializeField] PlayableDirector playableDirector;
     public Button[] abilityBtn;
     public System.Action<int> onClick;
     public bool reinforced;
@@ -23,11 +26,13 @@ public class UiManager : MonoBehaviour
     #region [ComboComponent_Function(test)]
     public void SpellAnimation(int i)
     {
+        playableDirector.Play(artifactData[i].artifactAbility.timelineData.timelineAsset);
+    }
+    /*
         animator.CrossFadeInFixedTime(artifactData[i].artifactAbility.abilityAnimation.abilityClip.name,
             artifactData[i].artifactAbility.abilityAnimation.transitionDuration);
         CameraManager.Instance.ChangeCameraMode(CameraMode.Sequence);
         CameraManager.Instance.SetSequenceData(artifactData[i].artifactAbility.data.sequenceData);
-        artifactData[i].artifactAbility.abilityVfx.SpawnVFX();
-    }
+        artifactData[i].artifactAbility.abilityVfx.SpawnVFX();*/
     #endregion
 }

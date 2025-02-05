@@ -15,11 +15,5 @@ MonoBehaviour:
   data:
     abilitype: 1
     sequenceData: {fileID: 11400000, guid: d8967520b1fb76948a157529055dceb4, type: 2}
-  abilityAnimation:
-    abilityClip: {fileID: -203655887218126122, guid: c728bd2474d26d74ca7da3f22631fc7f, type: 3}
-    transitionDuration: 0.1
-  abilityVfx:
-    particle: {fileID: 1379504315796101638, guid: 3407e378c048bb5438424b28c7740b48, type: 3}
-    spawnSlot: {fileID: 0}
-    spawnPosition: {x: 0, y: 0.5, z: 0}
-    isSpawn: 1
+  timelineData:
+    timelineAsset: {fileID: 11400000, guid: 9a4a5241b6633664096afaa262311cbe, type: 2}

@@ -995,7 +995,7 @@ MonoBehaviour:
     roomType: 1
     childrenID:
     - Room_2_1
-    - Room_1_2
+    - Room_2_2
   - roomID: Room_1_1
     roomType: 1
     childrenID: []

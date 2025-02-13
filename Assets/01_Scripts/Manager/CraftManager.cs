@@ -53,6 +53,7 @@ public class CraftManager : MonoBehaviour
         }
     }
 
+    #region[SetData]
     private void Initialize()
     {
         reqCondition = 0;
@@ -76,6 +77,7 @@ public class CraftManager : MonoBehaviour
         exitButton.onClick.AddListener(() => CloseCraftWidget());
         openButton.onClick.AddListener(() => OpenCraftWidget());
     }
+    #endregion
 
     #region[Craft]
     private void CraftArtifact()

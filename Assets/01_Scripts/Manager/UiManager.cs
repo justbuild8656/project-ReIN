@@ -2,6 +2,7 @@ using CameraSystem;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Playables;
+using TMPro;
 using UnityEngine.Timeline;
 public class UiManager : MonoBehaviour
 {
@@ -12,21 +13,24 @@ public class UiManager : MonoBehaviour
     public SO_Artifact[] artifactData;
     [SerializeField] PlayableDirector playableDirector;
     public Button[] abilityBtn;
-    public System.Action<int> onClick;
-    public bool reinforced;
-    private int currentindex;
+
     private void Awake()
     {
         for (int i = 0; i < abilityBtn.Length; i++)
         {
             int index = i;
             abilityBtn[i].onClick.AddListener(() => SpellAnimation(index));
+            abilityBtn[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = artifactData[i].artifactAbility.abilityType.ToString();
         }
     }
     #region [ComboComponent_Function(test)]
     public void SpellAnimation(int i)
     {
-        playableDirector.Play(artifactData[i].artifactAbility.timelineData.timelineAsset);
+        if(artifactData[i].artifactAbility.timelineData.timelineAsset!=null)
+        {
+            if (playableDirector.state == PlayState.Playing) { return; }
+            playableDirector.Play(artifactData[i].artifactAbility.timelineData.timelineAsset);
+        }
     }
     /*
         animator.CrossFadeInFixedTime(artifactData[i].artifactAbility.abilityAnimation.abilityClip.name,

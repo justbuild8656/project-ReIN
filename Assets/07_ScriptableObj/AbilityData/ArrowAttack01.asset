@@ -12,14 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebba6334568ccf34e9d8e9a74c7130ea, type: 3}
   m_Name: ArrowAttack01
   m_EditorClassIdentifier: 
-  data:
-    abilitype: 2
-    sequenceData: {fileID: 11400000, guid: d8967520b1fb76948a157529055dceb4, type: 2}
-  abilityAnimation:
-    abilityClip: {fileID: -203655887218126122, guid: 893ef47e4e54a604291af0b6dd75bdc5, type: 3}
-    transitionDuration: 0.1
-  abilityVfx:
-    particle: {fileID: 0}
-    spawnSlot: {fileID: 0}
-    spawnPosition: {x: 0, y: 0, z: 0}
-    isSpawn: 1
+  abilityType: 2
+  timelineData:
+    timelineAsset: {fileID: 11400000, guid: 9a4a5241b6633664096afaa262311cbe, type: 2}
+  buttonSprite: {fileID: 1297546233, guid: 0d7a298db33c1dd439b97bc5ecf26826, type: 3}

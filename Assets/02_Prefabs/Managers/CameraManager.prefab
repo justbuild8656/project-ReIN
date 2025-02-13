@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616961073470427681}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09589828, y: -0.24914888, z: 0.024801003, w: 0.96338636}
-  m_LocalPosition: {x: -6.267, y: -0.178, z: -9.602}
+  m_LocalRotation: {x: 0.13629635, y: 0.12388963, z: -0.017182268, w: 0.98274076}
+  m_LocalPosition: {x: -9.942, y: 1.212, z: -11.904}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -251,13 +251,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5757135962693348990}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09589828, y: -0.24914888, z: 0.024801003, w: 0.96338636}
-  m_LocalPosition: {x: -6.267, y: -0.178, z: -9.602}
+  m_LocalRotation: {x: 0.13629635, y: 0.12388963, z: -0.017182268, w: 0.98274076}
+  m_LocalPosition: {x: -9.942, y: 1.212, z: -11.904}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3835659131944625407}
-  m_LocalEulerAnglesHint: {x: -3, y: -29, z: 0}
+  m_LocalEulerAnglesHint: {x: 15.792, y: 14.37, z: 0}
 --- !u!114 &4600018712944001151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,5 +412,3 @@ MonoBehaviour:
   transitionState: 0
   cameraMode: 0
   camDefault: {fileID: 4600018712944001151}
-  splineContainer: {fileID: 0}
-  currentSpeed: 0

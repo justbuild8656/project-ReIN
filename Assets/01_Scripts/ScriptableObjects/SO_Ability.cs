@@ -20,10 +20,17 @@ public struct TimelineData
 
 public class SO_Ability: ScriptableObject
 {
+    public Ability data;
+    
     //abilitydata
-    public AbilityType abilityType;
+    public AbilityType type;
     //timeline
     public TimelineData timelineData;
     //ui
     public Sprite buttonSprite;
+
+    private void OnValidate()
+    {
+        data.name = type.ToString();
+    }
 }

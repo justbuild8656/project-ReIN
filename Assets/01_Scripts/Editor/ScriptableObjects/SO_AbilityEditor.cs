@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 using static UnityEngine.Rendering.DebugUI.MessageBox;
-[CustomEditor(typeof(SO_Ability))]
+//[CustomEditor(typeof(SO_Ability))]
 public class SO_AbilityEditor : Editor
 {
     private bool abilityTypeFoldout;
@@ -11,7 +11,7 @@ public class SO_AbilityEditor : Editor
     private SO_Ability ability;
 
     private SerializedProperty abilityType, timelineData, buttonSprite;
-
+    /*
     private void OnEnable()
     {
         FindSerializedObject();
@@ -36,7 +36,7 @@ public class SO_AbilityEditor : Editor
             }
         }
         serializedObject.ApplyModifiedProperties();
-    }
+    }*/
     private void FindSerializedObject()
     {
         abilityType = serializedObject.FindProperty("abilityType");

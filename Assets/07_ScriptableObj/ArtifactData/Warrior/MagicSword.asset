@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 862f92f4300bf3b46a42dadb3c2ce5bf, type: 3}
   m_Name: MagicSword
   m_EditorClassIdentifier: 
+  regionType: 1
   artifactInfo:
     name: Magic Sword
     artifactInfo: 'it is Magic Sword
 
 '
-  regionType: 1
   weightSetting:
     strengthWeight: 0
     intellectWeight: 0
     solidityWeight: 0
     enduranceWeight: 0
     intuitionWeight: 0
-  artifactAbility: {fileID: 11400000, guid: 4bdb60452d493fb4e917c15e6642dcb1, type: 2}
+  ability: {fileID: 11400000, guid: 4bdb60452d493fb4e917c15e6642dcb1, type: 2}

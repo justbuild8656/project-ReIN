@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebba6334568ccf34e9d8e9a74c7130ea, type: 3}
   m_Name: Heal01
   m_EditorClassIdentifier: 
-  abilityType: 0
+  data:
+    name: Heal01
+    staminaCost: 55
+    curCoolTime: 0
+    maxCoolTime: 0
+    castTime: 0
+    justTime: 0
+    effects: []
+  type: 0
   timelineData:
     timelineAsset: {fileID: 11400000, guid: c39654f14536a7e42a130a16bc3fcaa1, type: 2}
   buttonSprite: {fileID: -740313684, guid: 0d7a298db33c1dd439b97bc5ecf26826, type: 3}

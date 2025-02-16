@@ -35,7 +35,7 @@ public class SO_Artifact : ScriptableObject
     public WeightSetting weightSetting;
 
     [Header("[Ability]")]
-    public SO_Ability artifactAbility;
+    public SO_Ability ability;
     private void OnEnable()
     {
         OnReset();
@@ -54,7 +54,7 @@ public class SO_Artifact : ScriptableObject
         SO_Artifact data = CreateInstance<SO_Artifact>();
         data.regionType = this.regionType;
         data.weightSetting = this.weightSetting;
-        data.artifactAbility = this.artifactAbility;
+        data.ability = this.ability;
         return data;
     }
 }

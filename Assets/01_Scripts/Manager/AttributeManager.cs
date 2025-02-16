@@ -15,17 +15,37 @@ public class AttributeManager : MonoBehaviour
 {
     public AttributeType attributeType;
 
-    public float maxhealth;
+    private float maxhealth;
+    [Range(0.0f,9999.0f)]
     public float currentHealth;
-    public float maxstamina;
+    
+    private float maxstamina;
+    [Range(0.0f, 99.0f)]
     public float currentStamina;
-    public float maxheat;
+    
+    private float maxheat;
+    [Range(0.0f, 99.0f)]
     public float currentHeat;
 
+    //ui µ®∏Æ∞‘¿Ã∆Æ
+    public delegate void UpdateHealthValue(float currentHealth,float maxHealth);
+    public event UpdateHealthValue updateHealthValue;
 
+    public delegate void UpdateStaminaValue(float currentStamina,float maxStamina);
+    public event UpdateStaminaValue updateStaminaValue;
+
+    public delegate void UpdateHeatValue(float currentHeat);
+    public event UpdateHeatValue updateHeatValue;
+    
     private void Awake()
     {
         InitAttribute(attributeType);
+    }
+    private void Update()
+    {
+        updateHeatValue?.Invoke(currentHeat);
+        updateHealthValue?.Invoke(currentHealth, maxhealth);
+        updateStaminaValue?.Invoke(currentStamina, maxstamina);
     }
     public void InitAttribute(AttributeType type)
     {
@@ -54,16 +74,16 @@ public class AttributeManager : MonoBehaviour
         switch (attributeType)
         {
             case AttributeType.Health:
-                maxhealth = 100.0f;
+                maxhealth = 9999.0f;
                 currentHealth = maxhealth;
                 break;
 
             case AttributeType.Stamina:
-                maxstamina = 100.0f;
+                maxstamina = 99.0f;
                 currentStamina = maxstamina;
                 break;
             case AttributeType.Heat:
-                maxheat = 100.0f;
+                maxheat = 99.0f;
                 currentHeat = maxheat;
                 break;
         }

@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebba6334568ccf34e9d8e9a74c7130ea, type: 3}
   m_Name: ArrowAttack01
   m_EditorClassIdentifier: 
-  abilityType: 2
+  data:
+    name: ArrowAttack01
+    staminaCost: 0
+    curCoolTime: 0
+    maxCoolTime: 0
+    castTime: 0
+    justTime: 0
+    effects: []
+  type: 2
   timelineData:
     timelineAsset: {fileID: 11400000, guid: 9a4a5241b6633664096afaa262311cbe, type: 2}
   buttonSprite: {fileID: 1297546233, guid: 0d7a298db33c1dd439b97bc5ecf26826, type: 3}

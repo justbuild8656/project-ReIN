@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\Github\\project-ReIN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|e:\\github\\project-rein\\assets\\01_scripts\\manager\\attributemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\attributemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|e:\\github\\project-rein\\assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\scriptableobjects\\so_ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\scriptableobjects\\so_ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B555247B-8579-AC17-4533-F78FE5A03EBF}|Assembly-CSharp-Editor.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\editor\\scriptableobjects\\so_abilityeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B555247B-8579-AC17-4533-F78FE5A03EBF}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\01_scripts\\editor\\scriptableobjects\\so_abilityeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\scriptableobjects\\so_ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\scriptableobjects\\so_ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\player\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\attributemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\attributemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\craftmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,63 +51,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AttributeManager.cs",
-              "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\AttributeManager.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\AttributeManager.cs",
-              "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\AttributeManager.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\Manager\\AttributeManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T14:21:37.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SpawnManager.cs",
-              "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\SpawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\SpawnManager.cs",
-              "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\SpawnManager.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\Manager\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T12:36:24.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UiManager.cs",
               "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\UiManager.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\UiManager.cs",
               "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\UiManager.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Manager\\UiManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T05:38:33.868Z"
+              "WhenOpened": "2025-02-11T05:38:33.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SO_AbilityEditor.cs",
-              "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_AbilityEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_AbilityEditor.cs",
-              "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_AbilityEditor.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_AbilityEditor.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwDgAAAA3AAAAAAAAAA==",
+              "Title": "Ability.cs",
+              "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Player\\Ability.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player\\Ability.cs",
+              "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Player\\Ability.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Player\\Ability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T05:00:12.76Z"
+              "WhenOpened": "2025-02-15T13:39:32.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "SO_Ability.cs",
               "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\ScriptableObjects\\SO_Ability.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\ScriptableObjects\\SO_Ability.cs",
               "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\ScriptableObjects\\SO_Ability.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\ScriptableObjects\\SO_Ability.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T05:02:23.042Z"
+              "WhenOpened": "2025-02-05T05:02:23.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SO_AbilityEditor.cs",
+              "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_AbilityEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_AbilityEditor.cs",
+              "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_AbilityEditor.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_AbilityEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T05:00:12.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttributeManager.cs",
+              "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\AttributeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\AttributeManager.cs",
+              "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\AttributeManager.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Manager\\AttributeManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T14:21:37.55Z"
             },
             {
               "$type": "Document",

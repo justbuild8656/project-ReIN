@@ -1,11 +1,13 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    [Range(0,5)]
-    public int spawnCount;
-    public GameObject enemyObj;
+    public List<GameObject> enemyObjs = new List<GameObject>();
+    public GameObject enemyPrefab;
     public Transform spawnPoints;
+    [Range(0, 5)]
+    public int spawnCount;
 
     private void Awake()
     {
@@ -16,11 +18,13 @@ public class SpawnManager : MonoBehaviour
         int initSpawnCount = (spawnPoints.childCount - spawnCount) / 2;
         for (int i = 0; i < spawnCount; i++)
         {
-            SpawnEnemy(enemyObj, spawnPoints.GetChild(initSpawnCount + i));
+            GameObject spawnObj = SpawnEnemy(enemyPrefab, spawnPoints.GetChild(initSpawnCount + i));
+            enemyObjs.Add(spawnObj);
         }
     }
-    private void SpawnEnemy(GameObject enemyObj,Transform spawnPos)
+    private GameObject SpawnEnemy(GameObject enemyObj,Transform spawnPos)
     {
-        Instantiate(enemyObj, spawnPos.position, spawnPos.rotation);
+        GameObject spawnObj = Instantiate(enemyObj, spawnPos.position, spawnPos.rotation);
+        return spawnObj;
     }
 }

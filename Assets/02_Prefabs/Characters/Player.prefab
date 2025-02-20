@@ -15112,6 +15112,7 @@ GameObject:
   - component: {fileID: 6002770009565549700}
   - component: {fileID: 3383607377873359811}
   - component: {fileID: 727827497330018163}
+  - component: {fileID: 5827389600744942899}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -15151,7 +15152,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 2679fe7bffe7c14459d80a6d40e32e8e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -15176,6 +15177,22 @@ MonoBehaviour:
   currentHealth: 0
   currentStamina: 0
   currentHeat: 0
+--- !u!114 &5827389600744942899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866731124260530615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf7b96ee545a0449b076e8506bdb183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraDefault: {fileID: 0}
+  targetingUi: {fileID: 0}
+  targetingIndex: 0
+  spawnManager: {fileID: 0}
 --- !u!1 &1872527411957405142
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,8 +8,6 @@ public class UiManager : MonoBehaviour
 {
     public AttributeManager attribute;
     // Test : 현재 어빌리티와 버튼 체크하기 위해서 테스트중
-    
-    public Animator animator;
     //test
     public SO_Artifact[] artifactData;
     [SerializeField] PlayableDirector playableDirector;
@@ -66,11 +64,5 @@ public class UiManager : MonoBehaviour
         int heatpercent = Mathf.FloorToInt(currentHeat);
         heatPercent.text = heatpercent.ToString() + "%";
     }
-    /*
-        animator.CrossFadeInFixedTime(artifactData[i].artifactAbility.abilityAnimation.abilityClip.name,
-            artifactData[i].artifactAbility.abilityAnimation.transitionDuration);
-        CameraManager.Instance.ChangeCameraMode(CameraMode.Sequence);
-        CameraManager.Instance.SetSequenceData(artifactData[i].artifactAbility.data.sequenceData);
-        artifactData[i].artifactAbility.abilityVfx.SpawnVFX();*/
     #endregion
 }

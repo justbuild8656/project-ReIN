@@ -1,3 +1,4 @@
+using CameraSystem;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,11 +13,12 @@ public class TargetingComponent : MonoBehaviour
     }
     private void Start()
     {
-        TargetingEnemy();
+        
     }
     private void Update()
     {
         TestInput();
+        TargetingEnemy();
     }
     private void TestInput()
     {
@@ -25,6 +27,7 @@ public class TargetingComponent : MonoBehaviour
             if(spawnManager.enemyObjs.Count-1 > targetingIndex)
             {
                 targetingIndex++;
+                CameraManager.Instance.UpdateTargetGroup(targetingIndex+1);
                 TargetingEnemy();
             }
         }
@@ -33,12 +36,16 @@ public class TargetingComponent : MonoBehaviour
             if (targetingIndex > 0)
             {
                 targetingIndex--;
+                CameraManager.Instance.UpdateTargetGroup(targetingIndex+1);
                 TargetingEnemy();
             }
         }
     }
     private void TargetingEnemy()
     {
-        targetingUi.transform.position = Camera.main.WorldToScreenPoint(spawnManager.enemyObjs[targetingIndex].transform.GetChild(0).position);
+        if(spawnManager.enemyObjs.Count != 0)
+        {
+            targetingUi.transform.position = Camera.main.WorldToScreenPoint(spawnManager.enemyObjs[targetingIndex].transform.GetChild(0).position);
+        }
     }
 }

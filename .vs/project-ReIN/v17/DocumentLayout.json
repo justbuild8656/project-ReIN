@@ -3,23 +3,24 @@
   "WorkspaceRootPath": "E:\\Github\\project-ReIN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|e:\\github\\project-rein\\assets\\01_scripts\\player\\targetingcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\player\\targetingcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\targetingcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sangs\\AppData\\Local\\Temp\\966f7063-6173-4e5b-ab88-0ae4f5221760_PlayStationStyleTemplate-main.zip.760\\PlayStationStyleTemplate-main\\ConsoleItem\\Assets\\Scripts\\Object\\Base\\InteractiveObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|e:\\github\\project-rein\\assets\\01_scripts\\manager\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B555247B-8579-AC17-4533-F78FE5A03EBF}|Assembly-CSharp-Editor.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\editor\\scriptableobjects\\so_artifacteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B555247B-8579-AC17-4533-F78FE5A03EBF}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\01_scripts\\editor\\scriptableobjects\\so_artifacteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\scriptableobjects\\so_artifact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,30 +66,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InteractiveObject.cs",
-              "DocumentMoniker": "C:\\Users\\sangs\\AppData\\Local\\Temp\\966f7063-6173-4e5b-ab88-0ae4f5221760_PlayStationStyleTemplate-main.zip.760\\PlayStationStyleTemplate-main\\ConsoleItem\\Assets\\Scripts\\Object\\Base\\InteractiveObject.cs",
-              "ToolTip": "C:\\Users\\sangs\\AppData\\Local\\Temp\\966f7063-6173-4e5b-ab88-0ae4f5221760_PlayStationStyleTemplate-main.zip.760\\PlayStationStyleTemplate-main\\ConsoleItem\\Assets\\Scripts\\Object\\Base\\InteractiveObject.cs [\uC77D\uAE30 \uC804\uC6A9]",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAGUAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\CameraManager.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\CameraManager.cs",
+              "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Manager\\CameraManager.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAABRwEYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:32:21.376Z",
-              "EditorCaption": " [\uC77D\uAE30 \uC804\uC6A9]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SpawnManager.cs",
-              "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\SpawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\SpawnManager.cs",
-              "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\SpawnManager.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\Manager\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:12:39.447Z",
+              "WhenOpened": "2025-02-19T14:36:07.338Z",
               "EditorCaption": ""
             },
             {
@@ -99,26 +89,40 @@
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player\\TargetingComponent.cs",
               "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Player\\TargetingComponent.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player\\TargetingComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T11:11:25.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\SpawnManager.cs",
+              "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Manager\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:12:39.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UiManager.cs",
               "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\UiManager.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\UiManager.cs",
               "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\UiManager.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Manager\\UiManager.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T05:38:33.868Z"
+              "WhenOpened": "2025-02-11T05:38:33.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SO_ArtifactEditor.cs",
               "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_ArtifactEditor.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Editor\\ScriptableObjects\\SO_ArtifactEditor.cs",

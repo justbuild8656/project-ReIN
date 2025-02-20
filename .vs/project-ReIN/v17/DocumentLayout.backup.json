@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\Github\\project-ReIN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\player\\targetingcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\targetingcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|e:\\github\\project-rein\\assets\\01_scripts\\manager\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\player\\targetingcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\targetingcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|e:\\github\\project-rein\\assets\\01_scripts\\manager\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2460F7E-3F3D-E47B-A1C3-A8FC05D6E789}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B555247B-8579-AC17-4533-F78FE5A03EBF}|Assembly-CSharp-Editor.csproj|E:\\Github\\project-ReIN\\assets\\01_scripts\\editor\\scriptableobjects\\so_artifacteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,33 +66,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CameraManager.cs",
               "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\CameraManager.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\CameraManager.cs",
               "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\CameraManager.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Manager\\CameraManager.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAABRwEYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T14:36:07.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TargetingComponent.cs",
               "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Player\\TargetingComponent.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player\\TargetingComponent.cs",
               "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Player\\TargetingComponent.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player\\TargetingComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:11:25.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T11:11:25.727Z"
             },
             {
               "$type": "Document",
@@ -102,23 +101,21 @@
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\SpawnManager.cs",
               "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\SpawnManager.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Manager\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:12:39.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T11:12:39.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UiManager.cs",
               "DocumentMoniker": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\UiManager.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\UiManager.cs",
               "ToolTip": "E:\\Github\\project-ReIN\\Assets\\01_Scripts\\Manager\\UiManager.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Manager\\UiManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwEEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T05:38:33.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T05:38:33.868Z"
             },
             {
               "$type": "Document",

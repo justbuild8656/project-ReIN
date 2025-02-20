@@ -2,37 +2,67 @@ using CameraSystem;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Playables;
+using TMPro;
 using UnityEngine.Timeline;
 public class UiManager : MonoBehaviour
 {
+    public AttributeManager attribute;
     // Test : 현재 어빌리티와 버튼 체크하기 위해서 테스트중
-    
-    public Animator animator;
     //test
     public SO_Artifact[] artifactData;
     [SerializeField] PlayableDirector playableDirector;
-    public Button[] abilityBtn;
-    public System.Action<int> onClick;
-    public bool reinforced;
-    private int currentindex;
+
+    public Transform abilityParent;
+    [Header("UI")]
+    public GameObject abilityBtnPrefab;
+    public Image healthBar;
+    public TextMeshProUGUI health;
+    public Image staminaBar;
+    public TextMeshProUGUI heatPercent;
+    
     private void Awake()
     {
-        for (int i = 0; i < abilityBtn.Length; i++)
+        InitAbilityButton();
+        attribute.updateHealthValue += UpdateHealthValue;
+        attribute.updateStaminaValue += UpdateStaminaValue;
+        attribute.updateHeatValue += UpdateHeatValue;
+    }
+    #region [UI]
+    private void InitAbilityButton()
+    {
+        for (int i = 0; i < artifactData.Length; i++)
         {
             int index = i;
-            abilityBtn[i].onClick.AddListener(() => SpellAnimation(index));
+            GameObject abilityBtn = Instantiate(abilityBtnPrefab, abilityParent.transform.position, Quaternion.identity,abilityParent);
+            abilityBtn.GetComponent<Button>().onClick.AddListener(() => AbilityEvent(index));
+            abilityBtn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = artifactData[i].ability.type.ToString();
+            abilityBtn.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = artifactData[i].ability.data.staminaCost.ToString();
         }
     }
-    #region [ComboComponent_Function(test)]
-    public void SpellAnimation(int i)
+    private void AbilityEvent(int i)
     {
-        playableDirector.Play(artifactData[i].artifactAbility.timelineData.timelineAsset);
+        if(artifactData[i].ability.timelineData.timelineAsset!=null)
+        {
+            if (playableDirector.state == PlayState.Playing) { return; }
+            if (attribute.currentStamina <= artifactData[i].ability.data.staminaCost) { return; }
+
+            playableDirector.Play(artifactData[i].ability.timelineData.timelineAsset);
+            attribute.currentStamina -= artifactData[i].ability.data.staminaCost;
+        }
     }
-    /*
-        animator.CrossFadeInFixedTime(artifactData[i].artifactAbility.abilityAnimation.abilityClip.name,
-            artifactData[i].artifactAbility.abilityAnimation.transitionDuration);
-        CameraManager.Instance.ChangeCameraMode(CameraMode.Sequence);
-        CameraManager.Instance.SetSequenceData(artifactData[i].artifactAbility.data.sequenceData);
-        artifactData[i].artifactAbility.abilityVfx.SpawnVFX();*/
+    private void UpdateHealthValue(float currentHealth,float maxHealth)
+    {
+        healthBar.fillAmount = (currentHealth / maxHealth);
+        health.text = currentHealth.ToString();
+    }
+    private void UpdateStaminaValue(float currentStamina,float maxStamina)
+    { 
+        staminaBar.fillAmount = (currentStamina / maxStamina);
+    }
+    private void UpdateHeatValue(float currentHeat)
+    {
+        int heatpercent = Mathf.FloorToInt(currentHeat);
+        heatPercent.text = heatpercent.ToString() + "%";
+    }
     #endregion
 }

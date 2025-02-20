@@ -10,14 +10,6 @@ public enum AbilityType
     ArrowAttack01 = 2,
 }
 
-
-
-
-[System.Serializable]
-public struct AbilitylData
-{
-    public AbilityType abilitype;
-}
 [System.Serializable]
 public struct TimelineData
 {
@@ -28,6 +20,17 @@ public struct TimelineData
 
 public class SO_Ability: ScriptableObject
 {
-    public AbilitylData data;
+    public Ability data;
+    
+    //abilitydata
+    public AbilityType type;
+    //timeline
     public TimelineData timelineData;
+    //ui
+    public Sprite buttonSprite;
+
+    private void OnValidate()
+    {
+        data.name = type.ToString();
+    }
 }

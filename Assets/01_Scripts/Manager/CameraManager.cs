@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using Unity.Cinemachine;
+using System;
 namespace CameraSystem
 {
     public enum CameraMode
@@ -16,6 +17,7 @@ namespace CameraSystem
 
     public class CameraManager : MonoBehaviour
     {
+        public CinemachineTargetGroup targetGroup;
         private static CameraManager instance;
         public static CameraManager Instance { get => instance; }
         //camera_transition_state
@@ -52,6 +54,23 @@ namespace CameraSystem
             {
                 CamreaShake();
             }
+        }
+        public void SetTargetGroup(Transform enemyTransform)
+        {
+            if(enemyTransform!=null)
+            {
+                targetGroup.AddMember(enemyTransform, 0.2f, 0.0f);
+                targetGroup.Targets[1].Weight = 0.4f;
+            }
+        }
+        public void UpdateTargetGroup(int index)
+        {
+            for(int i=0;i<targetGroup.Targets.Count;i++)
+            {
+                targetGroup.Targets[i].Weight = 0.2f;
+            }
+            targetGroup.Targets[0].Weight = 1f;
+            targetGroup.Targets[index].Weight = 0.4f;
         }
 
         #region[Set Data]

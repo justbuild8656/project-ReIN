@@ -17,16 +17,16 @@ public class CraftManagerEditor : Editor
     [Header("UI")]
     public SerializedProperty craftWidget,content, slot, craftButton,exitButton,openButton;
 
+    #region [EventFuction]
     private void OnEnable()
     {
         FindSerializedObject();
     }
-    
     public override void OnInspectorGUI()
     {
         serializedObject.Update();
         craftManager = (CraftManager)target;
-        
+
         using (new EditorGUILayout.VerticalScope(EditorStyles.helpBox))
         {
             tabindex = GUILayout.Toolbar(tabindex, tabs);
@@ -48,7 +48,9 @@ public class CraftManagerEditor : Editor
         }
         serializedObject.ApplyModifiedProperties();
     }
+    #endregion
 
+    #region[FindDatas]
     private void FindSerializedObject()
     {
         //Artifact Recipe
@@ -64,6 +66,7 @@ public class CraftManagerEditor : Editor
         exitButton = serializedObject.FindProperty("exitButton");
         openButton = serializedObject.FindProperty("openButton");
     }
+    #endregion
 
     #region[Artifacts]
     private void TabArtifact()

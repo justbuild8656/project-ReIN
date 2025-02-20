@@ -13,7 +13,14 @@ MonoBehaviour:
   m_Name: Heal01
   m_EditorClassIdentifier: 
   data:
-    abilitype: 0
-    sequenceData: {fileID: 11400000, guid: f1fe404760c130a4f9b53af212a47aae, type: 2}
+    name: Heal01
+    staminaCost: 55
+    curCoolTime: 0
+    maxCoolTime: 0
+    castTime: 0
+    justTime: 0
+    effects: []
+  type: 0
   timelineData:
     timelineAsset: {fileID: 11400000, guid: c39654f14536a7e42a130a16bc3fcaa1, type: 2}
+  buttonSprite: {fileID: -740313684, guid: 0d7a298db33c1dd439b97bc5ecf26826, type: 3}

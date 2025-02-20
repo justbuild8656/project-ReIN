@@ -14,7 +14,7 @@ public class SO_ArtifactEditor : Editor
     [Header("[Artifact Weight Value]")]
     private SerializedProperty weightSetting;
     [Header("[Ability]")]
-    private SerializedProperty artifactAbility;
+    private SerializedProperty ability;
     private void OnEnable()
     {
         FindSerializedObject();
@@ -46,7 +46,7 @@ public class SO_ArtifactEditor : Editor
         artifactInfo = serializedObject.FindProperty("artifactInfo");
         regionType = serializedObject.FindProperty("regionType");
         weightSetting = serializedObject.FindProperty("weightSetting");
-        artifactAbility = serializedObject.FindProperty("artifactAbility");
+        ability = serializedObject.FindProperty("ability");
     }
     #region [Artifact Data]
     private void TabData()
@@ -78,7 +78,7 @@ public class SO_ArtifactEditor : Editor
     {
         using (new EditorGUILayout.VerticalScope(EditorStyles.helpBox))
         {
-            EditorGUILayout.PropertyField(artifactAbility);
+            EditorGUILayout.PropertyField(ability);
         }
     }
     #endregion

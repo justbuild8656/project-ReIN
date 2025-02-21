@@ -19,21 +19,56 @@ public class UiManager : MonoBehaviour
     public TextMeshProUGUI health;
     public Image staminaBar;
     public TextMeshProUGUI heatPercent;
-    
+
+    #region[EventFuction]
     private void Awake()
     {
         InitAbilityButton();
+        AddAttributeEvent();
+    }
+    #endregion
+
+    #region [AttributeDelegate]
+    private void AddAttributeEvent()
+    {
         attribute.updateHealthValue += UpdateHealthValue;
         attribute.updateStaminaValue += UpdateStaminaValue;
         attribute.updateHeatValue += UpdateHeatValue;
     }
+
+    #region[SetValue]
+    //체력 델리게이트 함수
+    private void UpdateHealthValue(float currentHealth, float maxHealth)
+    {
+        healthBar.fillAmount = (currentHealth / maxHealth);
+        health.text = currentHealth.ToString();
+    }
+    //스테미나 델리게이트 함수
+    private void UpdateStaminaValue(float currentStamina, float maxStamina)
+    {
+        staminaBar.fillAmount = (currentStamina / maxStamina);
+    }
+    //히트 델리게이트 함수
+    private void UpdateHeatValue(float currentHeat)
+    {
+        //소수점 삭제하기
+        int heatpercent = Mathf.FloorToInt(currentHeat);
+        heatPercent.text = heatpercent.ToString() + "%";
+    }
+    #endregion
+
+    #endregion
+
     #region [UI]
+
     private void InitAbilityButton()
     {
         for (int i = 0; i < artifactData.Length; i++)
         {
             int index = i;
+            //버튼생성
             GameObject abilityBtn = Instantiate(abilityBtnPrefab, abilityParent.transform.position, Quaternion.identity,abilityParent);
+            //생성된 버튼에 클릭 이벤트 추가
             abilityBtn.GetComponent<Button>().onClick.AddListener(() => AbilityEvent(index));
             abilityBtn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = artifactData[i].ability.type.ToString();
             abilityBtn.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = artifactData[i].ability.data.staminaCost.ToString();
@@ -41,6 +76,7 @@ public class UiManager : MonoBehaviour
     }
     private void AbilityEvent(int i)
     {
+        //마도구의 타인라인 애셋 플레이
         if(artifactData[i].ability.timelineData.timelineAsset!=null)
         {
             if (playableDirector.state == PlayState.Playing) { return; }
@@ -50,19 +86,6 @@ public class UiManager : MonoBehaviour
             attribute.currentStamina -= artifactData[i].ability.data.staminaCost;
         }
     }
-    private void UpdateHealthValue(float currentHealth,float maxHealth)
-    {
-        healthBar.fillAmount = (currentHealth / maxHealth);
-        health.text = currentHealth.ToString();
-    }
-    private void UpdateStaminaValue(float currentStamina,float maxStamina)
-    { 
-        staminaBar.fillAmount = (currentStamina / maxStamina);
-    }
-    private void UpdateHeatValue(float currentHeat)
-    {
-        int heatpercent = Mathf.FloorToInt(currentHeat);
-        heatPercent.text = heatpercent.ToString() + "%";
-    }
     #endregion
+ 
 }

@@ -1,6 +1,6 @@
 using UnityEditor;
 using UnityEngine;
-[CustomEditor(typeof(SO_Artifact))]
+//[CustomEditor(typeof(SO_Artifact))]
 public class SO_ArtifactEditor : Editor
 {
     private string[] tabs = { "Data", "Ability" };
@@ -19,6 +19,7 @@ public class SO_ArtifactEditor : Editor
     {
         FindSerializedObject();
     }
+    /*
     public override void OnInspectorGUI()
     {
         serializedObject.Update();
@@ -40,7 +41,7 @@ public class SO_ArtifactEditor : Editor
             }
         }
         serializedObject.ApplyModifiedProperties();
-    }
+    }*/
     private void FindSerializedObject()
     {
         artifactInfo = serializedObject.FindProperty("artifactInfo");

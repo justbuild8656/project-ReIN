@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(CraftManager))]
+//[CustomEditor(typeof(CraftManager))]
 
 public class CraftManagerEditor : Editor
 {
@@ -22,6 +22,7 @@ public class CraftManagerEditor : Editor
     {
         FindSerializedObject();
     }
+    /*
     public override void OnInspectorGUI()
     {
         serializedObject.Update();
@@ -47,7 +48,7 @@ public class CraftManagerEditor : Editor
             }
         }
         serializedObject.ApplyModifiedProperties();
-    }
+    }*/
     #endregion
 
     #region[FindDatas]

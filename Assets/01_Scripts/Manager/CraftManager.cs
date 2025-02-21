@@ -25,6 +25,21 @@ public class CraftManager : MonoBehaviour
     public Button craftButton;
     public Button exitButton;
     public Button openButton;
+
+    //테스트(지울 예정)
+    private void TestInput()
+    {
+        reqCondition = 0;
+        AddDictionary(0, ArtifactMaterialGrade.Common, 5, MaterialInventory);
+        AddDictionary(1, ArtifactMaterialGrade.SuperRare, 5, MaterialInventory);
+        AddDictionary(2, ArtifactMaterialGrade.Rare, 5, MaterialInventory);
+        AddDictionary(3, ArtifactMaterialGrade.UltraRare, 5, MaterialInventory);
+        for (int i = 0; i < recipe.reqMaterials.Length; i++)
+        {
+            RefreshSlot(i, recipe.reqMaterials[i].materialID.ToString(), recipe.reqMaterials[i].count, MaterialInventory[i].count);
+        }
+    }
+    #region[EventFuction]
     private void Awake()
     {
         //데이터 초기화
@@ -39,19 +54,7 @@ public class CraftManager : MonoBehaviour
             TestInput();
         }
     }
-    //테스트(지울 예정)
-    private void TestInput()
-    {
-        reqCondition = 0;
-        AddDictionary(0, ArtifactMaterialGrade.Common, 5, MaterialInventory);
-        AddDictionary(1, ArtifactMaterialGrade.SuperRare, 5, MaterialInventory);
-        AddDictionary(2, ArtifactMaterialGrade.Rare, 5, MaterialInventory);
-        AddDictionary(3, ArtifactMaterialGrade.UltraRare, 5, MaterialInventory);
-        for (int i = 0; i < recipe.reqMaterials.Length; i++)
-        {
-            RefreshSlot(i, recipe.reqMaterials[i].materialID.ToString(), recipe.reqMaterials[i].count, MaterialInventory[i].count);
-        }
-    }
+    #endregion
 
     #region[SetData]
     private void Initialize()

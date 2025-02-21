@@ -47,8 +47,10 @@ public class AttributeManager : MonoBehaviour
         updateHealthValue?.Invoke(currentHealth, maxhealth);
         updateStaminaValue?.Invoke(currentStamina, maxstamina);
     }
+    #region[SetData]
     public void InitAttribute(AttributeType type)
     {
+        //플래그 이용해서 중복체크 가능
         foreach (AttributeType flag in Enum.GetValues(typeof(AttributeType)))
         {
             if ((type & flag) == flag)
@@ -88,5 +90,5 @@ public class AttributeManager : MonoBehaviour
                 break;
         }
     }
-
+    #endregion
 }

@@ -8,33 +8,29 @@ namespace CameraSystem
     {
         Default,
     }
-    public enum TransitionState
-    {
-        None,
-        Transition,
-    }
     [System.Serializable]
 
     public class CameraManager : MonoBehaviour
     {
-        public CinemachineTargetGroup targetGroup;
+        //인스턴스화
         private static CameraManager instance;
         public static CameraManager Instance { get => instance; }
-        //camera_transition_state
-        [Header("Transition_State")]
-        public TransitionState transitionState = TransitionState.None;
 
-        //camera_mode
+        //카메라 모드
         [Header("Camera_Mode")]
         public CameraMode cameraMode = CameraMode.Default;
 
-        //default,cutscene,target
+        //기본캠 
         [Header("Cinemachine_Cameras")]
         [SerializeField] CinemachineCamera camDefault;
 
-        //cameraShake_Component
+        [Header("TargetGroup")]
+        public CinemachineTargetGroup targetGroup;
+
+        //카메라 흔들림 효과 컴퍼넌트
         private CinemachineImpulseSource source;
 
+        #region[EventFunction]
         private void Awake()
         {
             Initialize();
@@ -43,6 +39,7 @@ namespace CameraSystem
         {
             //TestInput();
         }
+
         // Test:이후에 코드 삭제할 예정
         private void TestInput()
         {
@@ -55,37 +52,22 @@ namespace CameraSystem
                 CamreaShake();
             }
         }
-        public void SetTargetGroup(Transform enemyTransform)
-        {
-            if(enemyTransform!=null)
-            {
-                targetGroup.AddMember(enemyTransform, 0.2f, 0.0f);
-                targetGroup.Targets[1].Weight = 0.4f;
-            }
-        }
-        public void UpdateTargetGroup(int index)
-        {
-            for(int i=0;i<targetGroup.Targets.Count;i++)
-            {
-                targetGroup.Targets[i].Weight = 0.2f;
-            }
-            targetGroup.Targets[0].Weight = 1f;
-            targetGroup.Targets[index].Weight = 0.4f;
-        }
+        #endregion
 
         #region[Set Data]
         private void Initialize()
         {
             instance = this;
 
-            //get_component
+            //컴퍼넌트 가져오기
             source = Camera.main.gameObject.GetComponent<CinemachineImpulseSource>();
-            DebugComponent();
+            DebugData();
 
-            //init_setting
+            //초기화 세팅
             cameraMode = CameraMode.Default;
             ChangeCameraMode(cameraMode);
         }
+        //이후 카메라를 여러개 추가할때 카메라 모드 이용예정
         public void ChangeCameraMode(CameraMode p_camera_mode)
         {
             cameraMode = p_camera_mode;
@@ -96,17 +78,28 @@ namespace CameraSystem
                     break;
             }
         }
-        #endregion
-
-        #region [Transition] 
-        public IEnumerator UpdateTransitionState()
+        public void SetTargetGroup(Transform enemyTransform)
         {
-            transitionState = TransitionState.Transition;
-            yield return new WaitForSeconds(0.7f);
-            transitionState = TransitionState.None;
-
+            if (enemyTransform != null)
+            {
+                //타겟그룹에 트랜스폼 데이터를 추가하기
+                targetGroup.AddMember(enemyTransform, 0.2f, 0.0f);
+                //초기화 세팅하기
+                targetGroup.Targets[1].Weight = 0.4f;
+            }
         }
-
+        public void UpdateTargetGroup(int index)
+        {
+            //전체 초기화하기
+            for (int i = 0; i < targetGroup.Targets.Count; i++)
+            {
+                targetGroup.Targets[i].Weight = 0.2f;
+            }
+            //플레이어는 무조건 1로 세팅하기
+            targetGroup.Targets[0].Weight = 1f;
+            //선택한 타겟팅 인덱스의 가중치 증가하기
+            targetGroup.Targets[index].Weight = 0.4f;
+        }
         #endregion
 
         #region[Default]
@@ -122,22 +115,21 @@ namespace CameraSystem
         #endregion
 
         #region [Debugger]
-        private void DebugComponent()
+        private void DebugData()
         {
+            //디버깅
             if (source == null)
             {
-                Debug.LogWarning("CinemachineImpulseSource is required in the main camera");
+                Debug.LogError("CinemachineImpulseSource is required in the main camera and CameraManager.cs");
             }
-        }
-
-        private void OnGUI()
-        {
-            GUIStyle style = new GUIStyle();
-            style.fontStyle = FontStyle.Bold;
-            style.fontSize = 16;
-            style.normal.textColor = Color.white;
-            GUI.Label(new Rect(0f,0f,100f,100f),"[camera_mode]:"+ cameraMode.ToString(),style);
-            //GUI.Label(new Rect(30f, 1 * 18f, 100f, 100f), "[speed]-sequence-data:" + string.Format("{0:N4}", sequenceData.cart_speed), style);
+            if (camDefault == null)
+            {
+                Debug.LogError("camDefault is required in CameraManager.cs");
+            }
+            if (targetGroup == null)
+            {
+                Debug.LogError("targetGroup is required in CameraManager.cs");
+            }
         }
         #endregion
     }

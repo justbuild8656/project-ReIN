@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebba6334568ccf34e9d8e9a74c7130ea, type: 3}
+  m_Name: SwordAttack01
+  m_EditorClassIdentifier: 
+  data:
+    name: SwordAttack01
+    staminaCost: 25
+    curCoolTime: 0
+    maxCoolTime: 0
+    castTime: 0
+    justTime: 0
+    effects: []
+  type: 1
+  timelineData:
+    timelineAsset: {fileID: 11400000, guid: 9a4a5241b6633664096afaa262311cbe, type: 2}
+  buttonSprite: {fileID: -1766197175, guid: 0d7a298db33c1dd439b97bc5ecf26826, type: 3}

@@ -1,0 +1,1016 @@
+fileFormatVersion: 2
+guid: 0d7a298db33c1dd439b97bc5ecf26826
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: classjobs_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1307
+        width: 204
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b64bdf28932d45428c41d00ee20a19c
+      internalID: -740313684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1307
+        width: 149
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40f2f8b96c1a594daad309803e794c6
+      internalID: 191223900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1324
+        width: 219
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294b49758ef9e49479bc1fe1c7d66442
+      internalID: 541128789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1307
+        width: 207
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb7a025d4d03c041b8690a2092f6361
+      internalID: 721467293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1307
+        width: 217
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d56ce4f9acc1c4fa2f6002625bf2b5
+      internalID: -1542761389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1314
+        width: 219
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94816c1e4b38cc34a9fe55fa7c29ce4d
+      internalID: -1592182292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1050
+        width: 219
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afffa801cad80f94c8322d9eb7e7be8d
+      internalID: 1297546233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1049
+        width: 177
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9a761c3f6afdc4394aea76378fd564
+      internalID: -2131691894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1049
+        width: 170
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4483f20c69b339849b63a471af1c6605
+      internalID: -1306436195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1049
+        width: 204
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0395c64bbaac5bb4eabf0087349095e5
+      internalID: -847026242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1049
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5120d6106dc1b47b3f8125847da68e
+      internalID: -967102050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1051
+        width: 219
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d4a755bf5cb5744830683fd331e7ba
+      internalID: 1152322790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1049
+        width: 109
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b264a4f56a0cb48a3a48498f1a1efd
+      internalID: 143062258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 791
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded0529e7ba155f4dbe42f714cc15353
+      internalID: 1671891099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 835
+        width: 219
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149618e3d06e3204bb756c48d750c6bd
+      internalID: 1163454658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 816
+        width: 219
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f0255abb38be449a17d72ac7b2f0e3
+      internalID: -797544394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 791
+        width: 198
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26975a0e738b36b4ca473804c3d684d6
+      internalID: -1653161667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 831
+        width: 219
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e810665a70e5a2439a07bc2818ade5c
+      internalID: 2112536157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 792
+        width: 176
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1514131043c2d05489432e6ee7b94d37
+      internalID: -462143017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 578
+        width: 219
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d225c28acf640cf429a0254cf9616dad
+      internalID: -470117544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 534
+        width: 175
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d40fd9e0d70be4db002d7408d6bd88
+      internalID: -936300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 534
+        width: 165
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10fee7548f1a4d4aa34460b99a61b28
+      internalID: -1271366019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 533
+        width: 145
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1322d4b6ad026348b4fef603927757a
+      internalID: 1301302443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 533
+        width: 217
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e3e9146981a3f4a84033e40e629cf6
+      internalID: -409449324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 533
+        width: 208
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6ed01e03b154d469c8d9a0af32014e
+      internalID: -1711236954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 275
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656e9253431eaa945b303d0522e40091
+      internalID: -1766197175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 277
+        width: 219
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21657c02c7c48734f96358f29f92025a
+      internalID: -887173772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 275
+        width: 169
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84da57820802704fb9fa105ec3ae1f2
+      internalID: -765752880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 287
+        width: 219
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b152b4772f3864bb366cf10630996f
+      internalID: -295264056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 275
+        width: 214
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecdb3b0be05d91469c31c820fd460b7
+      internalID: -717707050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 275
+        width: 147
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1149582dfce60a24986d1fdaa38d30e5
+      internalID: 809012285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 110
+        width: 206
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e1d7223d2223c4c84a12259e7b6953
+      internalID: -168789626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 37
+        width: 206
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30053c020f742fd4780315c906915cbf
+      internalID: 1829947676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 17
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f9095d91638f0449851ac6a6c786bb
+      internalID: -271094073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 64
+        width: 219
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af79eefa02ce55429604bd80135a6ff
+      internalID: 1754282949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 17
+        width: 197
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41af6f5959782f141bb420343163f9a5
+      internalID: -1080676753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 17
+        width: 215
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a17caaac4b7dc45b87e5456d9f8a32
+      internalID: -1077294316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 38
+        width: 219
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68814ca05d62abf4f955662d14583b1c
+      internalID: -1199206655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classjobs_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1308
+        width: 217
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169b681d6cfa8354181ed8bd01cc8d6d
+      internalID: 1562936774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a491ef9dfb97d59409b3ac998b6e520a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      classjobs_sprite_0: -740313684
+      classjobs_sprite_1: 191223900
+      classjobs_sprite_10: -2131691894
+      classjobs_sprite_11: -1306436195
+      classjobs_sprite_12: -847026242
+      classjobs_sprite_13: -967102050
+      classjobs_sprite_14: 1152322790
+      classjobs_sprite_15: 143062258
+      classjobs_sprite_16: 1671891099
+      classjobs_sprite_17: 1163454658
+      classjobs_sprite_18: -797544394
+      classjobs_sprite_19: -1653161667
+      classjobs_sprite_2: 541128789
+      classjobs_sprite_20: 2112536157
+      classjobs_sprite_21: -462143017
+      classjobs_sprite_22: -470117544
+      classjobs_sprite_23: -936300188
+      classjobs_sprite_24: -1271366019
+      classjobs_sprite_25: 1301302443
+      classjobs_sprite_26: -409449324
+      classjobs_sprite_27: -1711236954
+      classjobs_sprite_28: -1766197175
+      classjobs_sprite_29: -887173772
+      classjobs_sprite_3: 721467293
+      classjobs_sprite_30: -765752880
+      classjobs_sprite_31: -295264056
+      classjobs_sprite_32: -717707050
+      classjobs_sprite_33: 809012285
+      classjobs_sprite_34: -168789626
+      classjobs_sprite_35: 1829947676
+      classjobs_sprite_36: -271094073
+      classjobs_sprite_37: 1754282949
+      classjobs_sprite_38: -1080676753
+      classjobs_sprite_39: -1077294316
+      classjobs_sprite_4: -1542761389
+      classjobs_sprite_40: -1199206655
+      classjobs_sprite_5: 1562936774
+      classjobs_sprite_6: -91833788
+      classjobs_sprite_7: 460542367
+      classjobs_sprite_8: -1592182292
+      classjobs_sprite_9: 1297546233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

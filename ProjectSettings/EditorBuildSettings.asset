@@ -5,21 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/00_Scenes/Prototype/PrototypeScene.unity
     guid: 2c7ea233d2b1d934487dd128a6259581
-  - enabled: 0
+  - enabled: 1
     path: Assets/00_Scenes/Prototype/ClassSelectScene.unity
     guid: 2c9df3ec1b65ed44fbec1d1c0efb0b4e
-  - enabled: 0
+  - enabled: 1
     path: Assets/00_Scenes/Prototype/ArtifactEquipScene.unity
     guid: 0939f50ffcfc84c4b8527b138cfafc6b
-  - enabled: 0
+  - enabled: 1
     path: Assets/00_Scenes/Prototype/ArtifactCraftScene.unity
     guid: e3f1305c809a87546b0052385f19363e
   - enabled: 1
-    path: Assets/00_Scenes/CameraTest/CameraManagerTestScene.unity
-    guid: 3a2d6e7a062c8c64285c536c8651acef
+    path: Assets/00_Scenes/Prototype/Village Scenes/VillageScene.unity
+    guid: 3b2967af159e0894db58d7d4bd945501
+  - enabled: 1
+    path: Assets/00_Scenes/Prototype/Village Scenes/DungeonSelectScene.unity
+    guid: d7d3ee7b4a86f5d448d8bbd9f238e6a4
+  - enabled: 1
+    path: Assets/00_Scenes/Prototype/Village Scenes/FoodIntakeScene.unity
+    guid: 522e109a5a18c104b907995ea768079e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
